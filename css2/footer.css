@@ -1,0 +1,82 @@
+
+
+
+
+
+#footer2 { font-size: 15px;
+		  width: 960px;
+		  margin: 0 auto 20px;
+		  padding: 30px 20px 50px; 
+		  clear: both; 
+		  color: white;
+		  padding-top: 20px;
+		  position: absolute;
+}
+#footer2 img{
+	width: 120px;
+}
+/*=========================================*/
+
+/*-------------------------------
+    Footer Links (Vertical)
+--------------------------------*/
+
+#footer2_links {margin: 0}
+
+#footer2_links li {border-bottom: 1px dotted #737a84; padding: 3px 5px; letter-spacing: 2px}
+
+/*-------------------------------
+    Footer Menu 
+--------------------------------*/
+
+#footer2_menu {list-style: none; border: 0px solid black; width: 960px; margin: 10px auto 0; clear: both}
+
+/*===============================================================*/
+
+#fouth{
+	margin-right:2px;	
+	margin-top:2px;	
+	margin-bottom:0!important;	
+	margin-left:0!important;
+	
+	}
+
+/*===============================================================*/
+
+#fouth{
+	width:217px;
+}
+
+/*===================*/
+
+#fouth{
+	margin-right: 30px;
+}
+
+/*================================*/
+
+#fouth{ 
+	float:left; 
+}
+/*================================*/
+
+#fouth{ 
+	float:left; 
+}
+/*================================*/
+
+#fouth{
+	margin-right:2px;	
+	margin-top:2px;	
+	margin-bottom:0!important;	
+	margin-left:0!important;
+	
+	}
+
+/*================================*/
+
+#fouth{
+	width:238px;
+	float:left;	
+	position: relative;
+}

@@ -1,0 +1,110 @@
+<spinner name="html5spinner" ng-init="loading()">
+        <div class="overlayy"></div>
+        <div id="loading">
+        <div id="loading-center">
+                <div id="loading-center-absolute">
+                <div class="object" id="object_four"></div>
+                <div class="object" id="object_three"></div>
+                <div class="object" id="object_two"></div>
+                <div class="object" id="object_one"></div>
+                </div>
+                </div>
+        </div>
+</spinner>
+
+<div class="header">
+	<div id="site_title">
+		<a ui-sref="entry"><img src="images/lol.jpg" alt="" style=" width: 220px;"></a>
+	</div>
+	<!-- Main Menu -->
+	<ol id="menu">
+		<li class="active_menu_item"><a ui-sref="entry">Home</a></li>
+		<li><a ui-sref="health">Health</a></li>
+		<li><a ui-sref="about2">About US</a></li>
+		<li><a ui-sref="MakeupTips">Makeup Tips</a></li>
+		<li><a ui-sref="Cosmetic">Cosmetic</a></li>
+	</ol>
+</div>
+<!-- END header -->
+<div id="container">
+
+	<div class="slideshow-container">
+
+		<div class="mySlides fade">
+			<img src="images/MAKE2.jpg" alt="" width="960" height="450">
+		</div>
+		<div class="mySlides fade">
+			<img src="images/makeup4.jpg" alt="" width="960" height="450">
+		</div>
+		<div class="mySlides fade">
+			<img src="images/makeup2.jpg" alt="" width="960" height="450">
+		</div>
+
+		<div class="mySlides fade">
+			<img src="images/MAKE.jpg" alt="" width="960" height="450">
+		</div>
+
+		<a class="prev" ng-click="plusSlides(-1)">&#10094;</a>
+		<a class="next" ng-click="plusSlides(1)">&#10095;</a>
+
+	</div>
+	<br>
+
+	<div style="text-align:center">
+		<span class="dot" ng-click="currentSlide(1)"></span>
+		<span class="dot" ng-click="currentSlide(2)"></span>
+		<span class="dot" ng-click="currentSlide(3)"></span>
+	</div>
+
+	<div class="one-half">
+		<div class="heading_bg" style="font-family: sans-serif" ;>
+			<h2 style="font-family: sans-serif" ;>Wecome to </h2>
+			<h2 style="font-family: sans-serif" ;>Our Beauty Blog</h2>
+		</div>
+		<p>100% ready for any type of sps, therapy, massage,eauty saloon website
+			Beauty should be part of your life, it shouldn’t take over your life. So poke around, 
+			get comfortable and step into the world of beauty that we’ve created just for you!
+		</p>
+	</div>
+	<div class="one-half last">
+		<div class="heading_bg">
+			<h2></h2>
+		</div>
+		<p style="padding-top: 24px;">we are committed to creating a platform where all women can reach their ideal level of beauty. Whether she changes her
+			look depending on her mood or is all about keeping it natural. Our goal is to create a personalized, educational, and,
+			most of all, fun experience for all women who are looking to get their daily dose of beauty.We do so by caring deeply
+			about the content we produce, obsessing over new products and by possessing insider access to industry experts and a behind-the-scenes.</p>
+	</div>
+	<div style="clear:both; height: 40px"></div>
+</div>
+<!-- close container -->
+<div id="footer" style="width: 960px;">
+	<div class="one-fourth" style="color:black;font-family: sans-serif;">
+		<h2 style="font-family: sans-serif;"> Contact Us</h2>
+				contact number: 0799806638
+				Email Address: jabu.webdeveloper@gmail.com	
+
+	</div>
+
+	<div class="one-fourth" style="color:black;font-family: sans-serif;">
+		<h2 style="font-family: sans-serif;"> Mission</h2>
+		To ensure each client receives professional, quality and friendly service. To ensure each client is treated with respectand
+		honesty. To meet the client needs by using high quality chemical free and organic cosmetics.
+
+	</div>
+
+	<div class="one-fourth" style="color:black;font-family: sans-serif;">
+		<h2 style="font-family: sans-serif;"> Vision</h2>
+		Hello Beautiful Makeup Services encourages human compassion through a business motivated by those who suffer from lack of
+		physical confidence or self esteem. We will provide makeovers and lessons at a competitive rate, without compromising quality,
+		professionalism or integrity
+	</div>
+
+	<div class="one-fourth last">
+		<h2 style="font-family: sans-serif;"> Socialize</h2>
+		<img src="images/contact.jpg" style="width:120px" alt="Image">
+	</div>
+</div>
+<p style="position: absolute;top: 700px;text-align: bottom;padding-left: 0px;padding-top: 505px;font-size:11px;padding-bottom: 0px;margin-left: 180px;">&copy; Copyright &copy; 2011. Company name all rights reserved</p>
+
+</div>
