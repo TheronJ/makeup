@@ -1,2 +1,0 @@
-# makeup
-Its about makeups
